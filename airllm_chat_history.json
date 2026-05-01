@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "selected_conversation_id": "af4156aa-9904-43b8-ab81-5b18b0c4e932",
+  "settings": {
+    "backend": "airllm",
+    "model_id": "meta-llama/Llama-3.3-70B-Instruct",
+    "max_new_tokens": 512,
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "system_prompt": "You are a helpful assistant.",
+    "layer_shards_path": "",
+    "profiling_mode": true
+  },
+  "conversations": [
+    {
+      "id": "af4156aa-9904-43b8-ab81-5b18b0c4e932",
+      "title": "hi",
+      "created_at": "2026-04-29T10:58:13Z",
+      "updated_at": "2026-04-29T10:58:16Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "hi",
+          "created_at": "2026-04-29T10:58:16Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Error: AirLLM import failed. Install compatible deps with: python install_airllm_requirements.py (original error: No module named 'sentencepiece')\nTraceback (most recent call last):\n  File \"/home/soxlat/programming/airllm_chat_app.py\", line 142, in ensure_loaded\n    from airllm import AutoModel\nModuleNotFoundError: No module named 'sentencepiece'\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/home/soxlat/programming/airllm_chat_app.py\", line 1056, in _generation_worker\n    self.service.ensure_loaded(model_id, hf_token, shards_path, profiling_mode)\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: AirLLM import failed. Install compatible deps with: python install_airllm_requirements.py (original error: No module named 'sentencepiece')",
+          "created_at": "2026-04-29T10:58:16Z"
+        }
+      ]
+    },
+    {
+      "id": "367f44b5-0419-430e-a318-6d8b881703cf",
+      "title": "hi",
+      "created_at": "2026-04-29T10:49:18Z",
+      "updated_at": "2026-04-29T10:58:10Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "hi",
+          "created_at": "2026-04-29T10:49:21Z"
+        },
+        {
+          "role": "assistant",
+          "content": "AirLLM is missing. Install with: pip install airllm bitsandbytes",
+          "created_at": "2026-04-29T10:49:21Z"
+        },
+        {
+          "role": "user",
+          "content": "hi",
+          "created_at": "2026-04-29T10:57:41Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Error: AirLLM import failed. Install compatible deps with: python install_airllm_requirements.py (original error: No module named 'sentencepiece')\nTraceback (most recent call last):\n  File \"/home/soxlat/programming/airllm_chat_app.py\", line 142, in ensure_loaded\n    from airllm import AutoModel\nModuleNotFoundError: No module named 'sentencepiece'\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/home/soxlat/programming/airllm_chat_app.py\", line 1056, in _generation_worker\n    self.service.ensure_loaded(model_id, hf_token, shards_path, profiling_mode)\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: AirLLM import failed. Install compatible deps with: python install_airllm_requirements.py (original error: No module named 'sentencepiece')",
+          "created_at": "2026-04-29T10:57:41Z"
+        },
+        {
+          "role": "user",
+          "content": "hi",
+          "created_at": "2026-04-29T10:58:06Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Error: AirLLM import failed. Install compatible deps with: python install_airllm_requirements.py (original error: No module named 'sentencepiece')\nTraceback (most recent call last):\n  File \"/home/soxlat/programming/airllm_chat_app.py\", line 142, in ensure_loaded\n    from airllm import AutoModel\nModuleNotFoundError: No module named 'sentencepiece'\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/home/soxlat/programming/airllm_chat_app.py\", line 1056, in _generation_worker\n    self.service.ensure_loaded(model_id, hf_token, shards_path, profiling_mode)\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: AirLLM import failed. Install compatible deps with: python install_airllm_requirements.py (original error: No module named 'sentencepiece')",
+          "created_at": "2026-04-29T10:58:06Z"
+        },
+        {
+          "role": "user",
+          "content": "hi",
+          "created_at": "2026-04-29T10:58:10Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Error: AirLLM import failed. Install compatible deps with: python install_airllm_requirements.py (original error: No module named 'sentencepiece')\nTraceback (most recent call last):\n  File \"/home/soxlat/programming/airllm_chat_app.py\", line 142, in ensure_loaded\n    from airllm import AutoModel\nModuleNotFoundError: No module named 'sentencepiece'\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/home/soxlat/programming/airllm_chat_app.py\", line 1056, in _generation_worker\n    self.service.ensure_loaded(model_id, hf_token, shards_path, profiling_mode)\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: AirLLM import failed. Install compatible deps with: python install_airllm_requirements.py (original error: No module named 'sentencepiece')",
+          "created_at": "2026-04-29T10:58:10Z"
+        }
+      ]
+    },
+    {
+      "id": "56c3e230-6970-4216-9b7d-9b53d71486be",
+      "title": "New Chat",
+      "created_at": "2026-04-28T18:56:30Z",
+      "updated_at": "2026-04-28T18:56:30Z",
+      "messages": []
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+easytello
+pyinstaller
